@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "233756593279",
+    "project_id": "moviles-2026a-gr1-emag",
+    "storage_bucket": "moviles-2026a-gr1-emag.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233756593279:android:780920eef5a2a94edb034a",
+        "android_client_info": {
+          "package_name": "com.example.moviles2026aswgr1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-yNLNXmPPxI83QCcgKSFFwL9Exl_cgjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
