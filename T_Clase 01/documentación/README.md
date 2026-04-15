@@ -58,4 +58,22 @@ Fuentes directas de los equipos de ingeniería de las aplicaciones seleccionadas
 * 🗺️ **API Geográfica:** [Waze Deep Links e Interoperabilidad](https://developers.google.com/waze/deeplinks)
 
 ---
+
+## 🛠️ Metodología de Investigación (AI-Assisted Engineering)
+
+Para la elaboración de este taller, se aplicaron técnicas de *Prompt Engineering* para filtrar documentación técnica de alto nivel y evitar fuentes comerciales.
+
+### Prompts Utilizados:
+1. **Investigación de Stack:** *Extracción de decisiones arquitectónicas en blogs de ingeniería (Tinder/Waze).*
+2. **Estructuración Técnica:** *Conversión de hallazgos en documentación técnica bajo estándar CommonMark.*
+
+### 📚 Bibliografía y Fuentes Consultadas
+* **Tinder Engineering:** [tinder.engineering](https://tinder.engineering/) - Análisis de arquitecturas reactivas.
+* **Google Cloud Blog:** [Waze Case Study](https://cloud.google.com/blog/products/gcp/how-waze-uses-google-cloud-to-keep-drivers-moving) - Escalabilidad y datos en tiempo real.
+* **Android Developers:** [Architecture Guide](https://developer.android.com/topic/architecture) - Patrones de diseño nativo.
+* **Apple Developer:** [SwiftUI Documentation](https://developer.apple.com/documentation/swiftui/) - Implementación de interfaces modernas.
+
+---
+
+*Este reporte fue estructurado siguiendo los lineamientos de Calidad de Software de la Facultad de Sistemas - EPN.*
 *Documentación generada para la materia de Aplicaciones Móviles.*
