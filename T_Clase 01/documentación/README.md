@@ -10,7 +10,7 @@
 - **Grupo:** 1
 - **Aplicativos Analizados:** Tinder y Waze
 - **Integrantes:**
-  - Dorian Álban
+  - Dorian Alban
   - Erick Alpusig
   - Eduardo Arcos
 
