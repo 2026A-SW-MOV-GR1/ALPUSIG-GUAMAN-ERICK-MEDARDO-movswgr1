@@ -5,14 +5,14 @@
 
 ---
 
-## 📋 Datos de Entrega
+## 📋 Datos
 
-- **Grupo:** XX
+- **Grupo:** 1
 - **Aplicativos Analizados:** Tinder y Waze
-- **Integrantes:** - AA
-  - BB
-  - CC
-- **Link Presentación:** [Insertar enlace a PDF/Imagen aquí](#)
+- **Integrantes:**
+  - Dorian Álban
+  - Erick Alpusig
+  - Eduardo Arcos
 
 ---
 
