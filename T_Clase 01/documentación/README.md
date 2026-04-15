@@ -65,13 +65,12 @@ Para la elaboración de este taller, se aplicaron técnicas de *Prompt Engineeri
 
 ### Prompts Utilizados:
 1. **Investigación de Stack:** *Extracción de decisiones arquitectónicas en blogs de ingeniería (Tinder/Waze).*
+
+"Actúa como un Ingeniero de Software Senior. Realiza una búsqueda profunda sobre el stack tecnológico de Tinder y Waze. Necesito identificar por qué eligieron desarrollo nativo o motores específicos para sus funcionalidades críticas (como el 'Swipe' o los mapas en tiempo real). Busca únicamente en blogs de ingeniería oficiales (Tinder Engineering, Google Cloud Blog) y sitios de arquitectura de software. Devuélveme los enlaces técnicos directos y un resumen de 3 puntos clave de su arquitectura."
+
 2. **Estructuración Técnica:** *Conversión de hallazgos en documentación técnica bajo estándar CommonMark.*
 
-### 📚 Bibliografía y Fuentes Consultadas
-* **Tinder Engineering:** [tinder.engineering](https://tinder.engineering/) - Análisis de arquitecturas reactivas.
-* **Google Cloud Blog:** [Waze Case Study](https://cloud.google.com/blog/products/gcp/how-waze-uses-google-cloud-to-keep-drivers-moving) - Escalabilidad y datos en tiempo real.
-* **Android Developers:** [Architecture Guide](https://developer.android.com/topic/architecture) - Patrones de diseño nativo.
-* **Apple Developer:** [SwiftUI Documentation](https://developer.apple.com/documentation/swiftui/) - Implementación de interfaces modernas.
+"Toma la información técnica de la evolución móvil (Nativo, Híbrido, Bridge, Motores Propios) y los casos de Tinder/Waze, y estructúralos en un archivo README.md para GitHub. Usa tablas comparativas para la evolución, bloques de código para ejemplos de arquitectura y una sección de 'Veredicto de Ingeniería' escrita en tercera persona. Asegúrate de que el diseño sea visualmente limpio, use emojis para jerarquía y que todos los enlaces sean funcionales."
 
 ---
 
