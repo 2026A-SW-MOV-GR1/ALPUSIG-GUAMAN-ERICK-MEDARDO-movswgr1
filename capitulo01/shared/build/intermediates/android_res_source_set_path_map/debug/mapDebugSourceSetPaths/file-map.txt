@@ -1,0 +1,10 @@
+com.example.moviles2026aswgr1.shared-pngs-0 D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\build\generated\res\pngs\debug
+com.example.moviles2026aswgr1.shared-updated_navigation_xml-1 D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\build\generated\updated_navigation_xml\debug
+com.example.moviles2026aswgr1.shared-mergeDebugResources-2 D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.moviles2026aswgr1.shared-mergeDebugResources-3 D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.moviles2026aswgr1.shared-debug-4 D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.moviles2026aswgr1.shared-debug-5 D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\build\intermediates\packaged_res\debug\packageDebugResources
+com.example.moviles2026aswgr1.shared-androidDebug-6 D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\src\androidDebug\res
+com.example.moviles2026aswgr1.shared-androidMain-7 D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\src\androidMain\res
+com.example.moviles2026aswgr1.shared-debug-8 D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\src\debug\res
+com.example.moviles2026aswgr1.shared-main-9 D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\src\main\res

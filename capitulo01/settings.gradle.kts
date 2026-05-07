@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "moviles2026aswgr1"
 include(":app")
+include(":shared")

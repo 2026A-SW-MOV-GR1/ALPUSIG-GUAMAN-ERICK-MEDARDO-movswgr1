@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4734615716699017428.xml:2:13-83
+INJECTED from D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4734615716699017428.xml:2:13-83
+	package
+		INJECTED from D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4734615716699017428.xml
+	xmlns:android
+		ADDED from D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4734615716699017428.xml:2:23-81
+uses-sdk
+INJECTED from D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4734615716699017428.xml reason: use-sdk injection requested
+INJECTED from D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4734615716699017428.xml
+INJECTED from D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4734615716699017428.xml
+	android:targetSdkVersion
+		INJECTED from D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4734615716699017428.xml
+	android:minSdkVersion
+		INJECTED from D:\Proyectos-git\ALPUSIG-GUAMAN-ERICK-MEDARDO-movswgr1\capitulo01\shared\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4734615716699017428.xml

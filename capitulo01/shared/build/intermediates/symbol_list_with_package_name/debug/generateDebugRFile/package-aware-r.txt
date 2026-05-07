@@ -1,0 +1,4 @@
+com.example.moviles2026aswgr1.shared
+color bg_color
+color text_color
+string saludo
