@@ -1,7 +1,6 @@
 package com.example.moviles2026aswgr1.shared
 
-import
-androidx.compose.foundation.background
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
