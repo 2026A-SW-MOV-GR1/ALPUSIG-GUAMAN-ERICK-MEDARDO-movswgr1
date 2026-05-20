@@ -13,3 +13,21 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# --- added: ignore build artifacts and IDE/user files ---
+**/build/
+**/.gradle/
+.idea/
+*.ipr
+*.iws
+
+# local configs
+**/local.properties
+
+# logs and caches
+*.log
+**/.kotlin/
+**/.cache/
+
+# OS junk
+Thumbs.db
