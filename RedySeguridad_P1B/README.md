@@ -1,30 +1,40 @@
-This is a Kotlin Multiplatform project targeting Android.
+# RedySeguridad P1B
+
+Proyecto Kotlin Multiplatform con enfoque Android. Incluye pantallas para consumo de una API de ejemplo y almacenamiento seguro/local de datos.
+
+## Funcionalidades
 
 - Pantalla POST: consulta GET y actualizacion PUT contra JSONPlaceholder.
 - Pantalla Secretos: guarda y recupera valores en SharedPreferences, DataStore y EncryptedSharedPreferences.
 
-* [/shared](./shared/src) is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - [commonMain](./shared/src/commonMain/kotlin) is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    the [iosMain](./shared/src/iosMain/kotlin) folder would be the right place for such calls.
-    Similarly, if you want to edit the Desktop (JVM) specific part, the [jvmMain](./shared/src/jvmMain/kotlin)
-    folder is the appropriate location.
+## Estructura del proyecto
 
-### Running the apps
+- `androidApp/`: aplicacion Android (UI, manifest, recursos).
+- `shared/`: modulo compartido.
+  - `shared/src/commonMain/kotlin`: codigo comun para todas las plataformas.
+  - Otros folders (por plataforma) contienen implementaciones especificas cuando aplica.
 
-Use the run configurations provided by the run widget in your IDE's toolbar. You can also use these commands and options:
+## Requisitos
 
-- Android app: `./gradlew :androidApp:assembleDebug`
+- Android Studio (o IntelliJ con plugin Kotlin Multiplatform).
+- JDK 17.
+- Android SDK configurado (ver `local.properties`).
 
-### Running tests
+## Ejecucion
 
-Use the run button in your IDE's editor gutter, or run tests using Gradle tasks:
+Usa las configuraciones de ejecucion del IDE o compila el APK con Gradle:
 
-- Android tests: `./gradlew :shared:testAndroidHostTest`
-- Common tests: `./gradlew :shared:commonTest`
+```bash
+./gradlew :androidApp:assembleDebug
+```
 
----
+## Pruebas
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+```bash
+./gradlew :shared:testAndroidHostTest
+./gradlew :shared:commonTest
+```
+
+## Notas
+
+- JSONPlaceholder es una API de prueba; las operaciones de actualizacion simulan persistencia.
