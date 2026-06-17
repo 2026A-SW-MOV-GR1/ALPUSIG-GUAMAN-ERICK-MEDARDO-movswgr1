@@ -1,0 +1,34 @@
+# Android / Kotlin / Gradle
+.gradle/
+.kotlin/
+**/build/
+.externalNativeBuild/
+.cxx/
+captures/
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+
+# Optional artefacts
+*.apk
+*.aab
+*.ap_
+*.dex
+*.keystore
+*.jks
+
+# Cross-platform / other tooling
+node_modules/
+xcuserdata/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
