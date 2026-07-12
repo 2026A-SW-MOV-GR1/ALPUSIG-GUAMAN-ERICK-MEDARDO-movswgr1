@@ -1,0 +1,51 @@
+# Gradle
+.gradle/
+build/
+**/build/
+scripts/
+
+# Kotlin Multiplatform
+.kotlin/
+kotlin-js-store/
+
+# Android
+local.properties
+.externalNativeBuild/
+.cxx/
+captures/
+*.apk
+*.aar
+*.jks
+*.keystore
+
+# IDE - Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IDE - VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# iOS / Xcode (KMP specific)
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+*.moved-aside
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+**/iosApp.xcresult/
+
+# Local / Temporary
+*.log
+temp/
+tmp/
