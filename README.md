@@ -1,26 +1,32 @@
-This is a Kotlin Multiplatform project targeting Android.
+# Proyecto: Ciclo de Vida (Contador Persistente)
 
-* [/shared](./shared/src) is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - [commonMain](./shared/src/commonMain/kotlin) is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    the [iosMain](./shared/src/iosMain/kotlin) folder would be the right place for such calls.
-    Similarly, if you want to edit the Desktop (JVM) specific part, the [jvmMain](./shared/src/jvmMain/kotlin)
-    folder is the appropriate location.
+Este es un proyecto educativo desarrollado con **Kotlin Multiplatform (KMP)** y **Jetpack Compose**. Su objetivo principal es demostrar y visualizar los eventos del ciclo de vida de Android y la persistencia de datos mediante el uso de `ViewModel`.
 
-### Running the apps
+## 🚀 Propósito del Proyecto
+La aplicación muestra un contador simple que permite incrementar y decrementar un valor. Lo relevante ocurre "detrás de escena":
+- **Monitoreo de Ciclo de Vida:** Utiliza un `LifecycleObserver` para registrar en el Logcat cada etapa de la Activity (`onCreate`, `onStart`, `onResume`, etc.).
+- **Persistencia ante Rotación:** Gracias al uso de `CounterViewModel`, el estado del contador se mantiene intacto incluso cuando el dispositivo se rota y la Activity se recrea.
+- **Arquitectura Reactiva:** La UI se actualiza automáticamente ante cambios de estado en el ViewModel.
 
-Use the run configurations provided by the run widget in your IDE's toolbar. You can also use these commands and options:
+## 🏗️ Estructura del Proyecto
+- **[`shared/commonMain`](./shared/src/commonMain/kotlin):** Contiene la lógica central.
+  - `App.kt`: Interfaz de usuario construida con Compose Multiplatform.
+  - `CounterViewModel.kt`: Gestiona el estado del contador y sobrevive a cambios de configuración.
+- **[`androidApp`](./androidApp/src/main/kotlin/com/example/ciclo_de_vida):** Contiene la implementación específica para Android.
+  - `MainActivity.kt`: Punto de entrada que gestiona el ciclo de vida y registra el observador.
+  - `AppLifecycleObserver.kt`: Clase que escucha y loguea los eventos de la aplicación.
 
-- Android app: `./gradlew :androidApp:assembleDebug`
+## 📱 Cómo Probar la App
+1. **Ejecutar la App:** Usa `./gradlew :androidApp:assembleDebug` o el botón "Run" en Android Studio.
+2. **Observar Logs:** Abre el **Logcat** y filtra por la etiqueta `LIFECYCLE_EVENTS` para ver cómo reacciona la app a tus acciones.
+3. **Probar Persistencia:** Incrementa el contador y **rota la pantalla**. Verás que el número no se pierde, demostrando la eficacia del ViewModel.
 
-### Running tests
-
-Use the run button in your IDE's editor gutter, or run tests using Gradle tasks:
-
-- Android tests: `./gradlew :shared:testAndroidHostTest`
+## 🛠️ Tecnologías Utilizadas
+- **Kotlin Multiplatform**
+- **Jetpack Compose** (UI Declarativa)
+- **Android Jetpack Lifecycle** (`ViewModel`, `LifecycleObserver`)
+- **Material Design 3**
 
 ---
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+*Desarrollado como parte del Taller 07 sobre el Ciclo de Vida en Android.*
