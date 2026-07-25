@@ -1,0 +1,5 @@
+- [x] Corregir Error 403 OSM (Escenario Multi-Factor)
+    - [x] Forzar limpieza de caché y configurar identidad "Navegador" en `GestionPaqueteriaApp.kt`
+    - [x] Cambiar proveedor de mapas a uno alternativo en `OsmMapView.kt`
+- [x] Verificación
+    - [x] Compilar y validar carga de tiles
